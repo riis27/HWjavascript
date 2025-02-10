@@ -1,6 +1,6 @@
 //2
-var Kendrick = 11;
-var Lamar = 12;
+let Kendrick = 11;
+let Lamar = 12;
 sumArg = Kendrick + Lamar;
 
 function sumArg() {
@@ -11,8 +11,8 @@ console.log(sumArg)
 
 
 //4
-var Kendrick = 11;
-var Lamar = 12;
+let Kendrick = 11;
+let Lamar = 12;
 difArg = Kendrick - Lamar;
 
 function difArg() {
@@ -22,8 +22,8 @@ function difArg() {
 console.log(difArg)
 
 //5
-var Kendrick = 11;
-var Lamar = 12;
+let Kendrick = 11;
+let Lamar = 12;
 multiArg = Kendrick * Lamar;
 
 function multiArg() {
@@ -33,20 +33,20 @@ function multiArg() {
 console.log(multiArg)
 
 //6
-var Kendrick = 11;
-var Lamar = 12;
-difArg = Kendrick / Lamar;
+let Kendrick = 11;
+let Lamar = 12;
+divArg = Kendrick / Lamar;
 
-function difArg() {
+function divArg() {
     return Kendrick / Lamar;
 }
 
-console.log(difArg)
+console.log(divArg)
 
 //7
 
-var Kendrick = 11;
-var Lamar = 12;
+let Kendrick = 11;
+let Lamar = 12;
 
 // 1. sumArg (Addition)
 const sumArg = (num1, num2) => num1 + num2;
@@ -60,8 +60,8 @@ console.log(difArg(Kendrick, Lamar));
 const multiArg = (num1, num2) => num1 * num2;
 console.log(multiArg(Kendrick, Lamar));
 
-// 4. divArg (Division)  (Corrected variable name to avoid conflict)
-const divArg = (num1, num2) => num1 / num2; // Corrected function name
+// 4. divArg (Division)  
+const divArg = (num1, num2) => num1 / num2;
 console.log(divArg(Kendrick, Lamar));
 
 
