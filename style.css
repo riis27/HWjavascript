@@ -1,0 +1,105 @@
+/* Lesson 38-39 */
+
+body {
+   background: #eeeeee;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+#content {
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    padding-top: 0;
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    max-height: 270px;
+    overflow: hidden;
+    -webkit-transition-duration-up: max-height 0.7s;
+    -moz-transition-up: max-height 0.7s;
+    transition: max-height 0.7s;
+    
+}
+#content.open{
+    max-height: 1000px;
+    -webkit-transition-duration-up: max-height 0.7s;
+    -moz-transition-up: max-height 0.7s;
+    transition: max-height 0.7s;
+    
+}
+
+
+#show-more {
+    background: #1594e5;
+    color: #fff;
+    font-family: 'Calibri';
+    display: block;
+    width: 140px;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+      margin: 20px auto;
+      cursor: pointer; 
+}
+
+
+/* Lesson 41 */
+
+#message{
+  width: 400px;
+  background: #9e2b2b;
+  padding: 20px;
+  padding: 20px;
+  font-family: calibri;
+  font-size: 18px;
+  color: #444;
+  margin: 0 auto;
+  text-align: center;
+  border: 5px solid #5e1212;
+  font-weight: bold;
+  opacity: 0;
+
+
+  /*set transition up */
+  -webkit-transition: opacity 0.75;
+  -moz-transition:  opacity 0.75;
+  transition: opacity 0.75;
+
+
+}
+#message.show{
+opacity: 1;
+
+
+  /*set transition up */
+  -webkit-transition: opacity 0.7s;
+  -moz-transition: opacity 0.7s;
+  transition: opacity 0.7s;
+
+
+
+
+
+}
+#colorChanger{
+
+
+  width: 400px;
+  height: 200px;
+  margin:10px auto;
+  border: 1px solid #000;
+  background: #fff;
+
+
+  -webkit-transition: background 0.7s;
+  -moz-transition:  background 0.7s;
+  transition: background 0.7s;
+}
+
